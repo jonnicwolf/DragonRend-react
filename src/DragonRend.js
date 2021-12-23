@@ -1,5 +1,8 @@
 import {Switch, Route} from 'react-router-dom';
 
+import BugsPage from './components/pages/BugsPage'
+import AboutPage from './components/pages/AboutPage'
+
 function DragonRend() {
   return (
   <div>
@@ -9,22 +12,6 @@ function DragonRend() {
       <Route path='/bugs' component={BugsPage} />
     </Switch>
   </div>
-    // <div className="App">
-    //   <header className="App-header">
-    //     <img src={logo} className="App-logo" alt="logo" />
-    //     <p>
-    //       Edit <code>src/App.js</code> and save to reload.
-    //     </p>
-    //     <a
-    //       className="App-link"
-    //       href="https://reactjs.org"
-    //       target="_blank"
-    //       rel="noopener noreferrer"
-    //     >
-    //       Learn React
-    //     </a>
-    //   </header>
-    // </div>
   );
 }
 

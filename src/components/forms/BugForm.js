@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-const Form = () => {
+const BugForm = () => {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [input, setInput] = useState('');
@@ -25,4 +25,6 @@ const Form = () => {
                 required/>
         </form>
     )
-}
+};
+
+export default BugForm;
