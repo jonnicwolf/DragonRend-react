@@ -12,9 +12,35 @@ import {Link} from 'react-router-dom';
 const MainMenu = () => {
     return (
         <nav>
-            <ul
+            <ul>
+                <li>
+                    <Link to='/newGameMenu'>
+                        New Game        
+                    </Link>
+                </li>
+                <li>
+                    <Link to='/checkpointsMenu'>
+                        Checkpoints
+                    </Link>
+                </li>
+                <li>
+                    <Link to='/careersMenu'>
+                        Career
+                    </Link>
+                </li>
+                <li>
+                    <Link to='settingsMenu'>
+                        Settings
+                    </Link>
+                </li>
+                <li>
+                    <Link to='/bugs'>
+                        Report a Bug
+                    </Link>
+                </li>
+            </ul>
         </nav>
     )
 };
 
-
+export default MainMenu;
