@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import DragonRend from './DragonRend';
+import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter} from 'react-router-dom';
 
 ReactDOM.render(
    <BrowserRouter>
-      <DragonRend />
+      <App />
    </BrowserRouter>,
   document.getElementById('root')
 );
