@@ -1,5 +1,4 @@
-// import {BugForm} from '../components/forms/BugForm'
-import BugForm from "../components/forms/BugForm.js"
+import BugForm from "../components/forms/BugForm.js";
 
 const BugsPage = () => {
     return (
