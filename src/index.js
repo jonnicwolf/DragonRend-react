@@ -3,11 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import DragonRend from './DragonRend';
 import reportWebVitals from './reportWebVitals';
+import {BrowserRouter} from 'react-router-dom';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <DragonRend />
-  </React.StrictMode>,
+   <BrowserRouter>
+      <DragonRend />
+   </BrowserRouter>,
   document.getElementById('root')
 );
 
