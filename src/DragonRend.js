@@ -9,11 +9,8 @@ function DragonRend() {
   return (
   <div>
     <DragonRendBanner/>
-    <div>yoyoyoyoyoyo</div>
+    
     <Routes>
-      {/* <Route exact path="/" component={DragonRend}/>
-      <Route path="/bugs" component={BugsPage}/>
-      <Route path="/about" component={AboutPage}/> */}
       <Route path='/' element={<DragonRend/>}/>
       <Route path='/bugs' element={<BugsPage/>}/>
       <Route path='/about' element={<AboutPage/>}/>
