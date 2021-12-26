@@ -1,35 +1,48 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+import styled from 'styled-components';
 
 const MainMenu = () => {
+    const Button = styled.li`
+        list-style-type: none;
+        border: 0.5vh solid;
+        border-radius: 25px;
+        border-color: brown;
+        font-size: 100px;
+    `
     return (
         <nav>
             <ul>
-                <li>
+                <Button><li>
                     <Link to='/newGameMenu'>
                         New Game        
                     </Link>
-                </li>
-                <li>
+                </li></Button>
+
+                <Button><li>
                     <Link to='/checkpointsMenu'>
                         Checkpoints
                     </Link>
-                </li>
-                <li>
+                </li></Button>
+                
+                <Button><li>
                     <Link to='/careersMenu'>
                         Career
                     </Link>
-                </li>
-                <li>
+                </li></Button>
+
+                <Button><li>
                     <Link to='settingsMenu'>
                         Settings
                     </Link>
-                </li>
-                <li>
+                </li></Button>
+
+                <Button><li>
                     <Link to='/bugs'>
                         Report a Bug
                     </Link>
-                </li>
+                </li></Button>
+                
             </ul>
         </nav>
     )
