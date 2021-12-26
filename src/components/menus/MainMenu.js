@@ -4,11 +4,15 @@ import styled from 'styled-components';
 
 const MainMenu = () => {
     const Button = styled.li`
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         list-style-type: none;
         border: 0.5vh solid;
         border-radius: 25px;
         border-color: brown;
-        font-size: 100px;
+        font-size: 50px;
+        width: 300px;
     `
     return (
         <nav>
@@ -42,7 +46,7 @@ const MainMenu = () => {
                         Report a Bug
                     </Link>
                 </li></Button>
-                
+
             </ul>
         </nav>
     )
