@@ -18,7 +18,6 @@ const MainMenu = () => {
     return (
         
             <ul>
-REPWarning: validateDOMNesting(...): <li> cannot appear as a descendant of <li>.
                 <Button><li>
                     <Link to='/newGame'
                           style={{textDecoration: 'none'}}>
