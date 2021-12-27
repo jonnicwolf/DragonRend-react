@@ -12,41 +12,53 @@ const MainMenu = () => {
         border-radius: 25px;
         border-color: brown;
         font-size: 50px;
-        width: 300p;x
+        width: 300p;
+        margin-bottom: 30px;
     `
     return (
         <nav>
             <ul>
                 <Button><li>
-                    <Link to='/newGameMenu'>
+                    <Link to='/newGameMenu'
+                          style={{textDecoration: 'none'}}>
                         New Game        
                     </Link>
                 </li></Button>
 
                 <Button><li>
-                    <Link to='/checkpointsMenu'>
+                    <Link to='/checkpointsMenu'
+                          style={{textDecoration: 'none'}}>
                         Checkpoints
                     </Link>
                 </li></Button>
                 
                 <Button><li>
-                    <Link to='/careersMenu'>
+                    <Link to='/careersMenu'
+                          style={{textDecoration: 'none'}}>
                         Career
                     </Link>
                 </li></Button>
 
                 <Button><li>
-                    <Link to='settingsMenu'>
+                    <Link to='settingsMenu'
+                          style={{textDecoration: 'none'}}>
                         Settings
                     </Link>
                 </li></Button>
 
                 <Button><li>
-                    <Link to='/bugs'>
+                    <Link to='/bugs'
+                          style={{textDecoration: 'none'}}>
                         Report a Bug
                     </Link>
                 </li></Button>
 
+                <Button><li>
+                    <Link to='/about'
+                          style={{textDecoration: 'none'}}>
+                        Devs
+                    </Link>
+                </li></Button>
             </ul>
         </nav>
     )
