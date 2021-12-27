@@ -16,31 +16,32 @@ const MainMenu = () => {
         margin-bottom: 30px;
     `
     return (
-        <nav>
+        
             <ul>
+REPWarning: validateDOMNesting(...): <li> cannot appear as a descendant of <li>.
                 <Button><li>
-                    <Link to='/newGameMenu'
+                    <Link to='/newGame'
                           style={{textDecoration: 'none'}}>
                         New Game        
                     </Link>
                 </li></Button>
 
                 <Button><li>
-                    <Link to='/checkpointsMenu'
+                    <Link to='/checkpoints'
                           style={{textDecoration: 'none'}}>
                         Checkpoints
                     </Link>
                 </li></Button>
                 
                 <Button><li>
-                    <Link to='/careersMenu'
+                    <Link to='/careers'
                           style={{textDecoration: 'none'}}>
                         Career
                     </Link>
                 </li></Button>
 
                 <Button><li>
-                    <Link to='settingsMenu'
+                    <Link to='settings'
                           style={{textDecoration: 'none'}}>
                         Settings
                     </Link>
@@ -60,7 +61,7 @@ const MainMenu = () => {
                     </Link>
                 </li></Button>
             </ul>
-        </nav>
+        
     )
 };
 
