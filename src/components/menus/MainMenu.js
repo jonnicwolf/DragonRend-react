@@ -12,7 +12,7 @@ const MainMenu = () => {
         border-radius: 25px;
         border-color: brown;
         font-size: 50px;
-        width: 300px;
+        width: 300p;x
     `
     return (
         <nav>

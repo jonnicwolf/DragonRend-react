@@ -10,6 +10,8 @@ const NewGameForm = () => {
             <input required type="text" name="email"/>
             {/* when email is input, render "Would you like to recieve game and account updates?"
             also optional recovery email */}
+
+            <button>Onto adventure</button>
         </form>
     )
 };
